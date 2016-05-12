@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4B11CC1CAC7C1B001FD2DB /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4B11CB1CAC7C1B001FD2DB /* CategoryViewController.swift */; };
+		BC9F12831CA72C650057E21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F12821CA72C650057E21F /* AppDelegate.swift */; };
+		BC9F12881CA72C650057E21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9F12861CA72C650057E21F /* Main.storyboard */; };
+		BC9F128A1CA72C650057E21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9F12891CA72C650057E21F /* Assets.xcassets */; };
+		BC9F128D1CA72C650057E21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9F128B1CA72C650057E21F /* LaunchScreen.storyboard */; };
+		BC9F12981CA72C650057E21F /* Wine_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F12971CA72C650057E21F /* Wine_InventoryTests.swift */; };
+		BC9F12A31CA72C650057E21F /* Wine_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F12A21CA72C650057E21F /* Wine_InventoryUITests.swift */; };
+		BC9F12B11CA72FAE0057E21F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F12B01CA72FAE0057E21F /* RootViewController.swift */; };
+		BCB94BB21CCBEDF90021689F /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB94BB11CCBEDF90021689F /* WineViewController.swift */; };
+		BCB94BB41CCBEE6C0021689F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB94BB31CCBEE6C0021689F /* InfoViewController.swift */; };
+		BCEBAB581CE13ADB0004D851 /* WineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEBAB571CE13ADB0004D851 /* WineList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9F12941CA72C650057E21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9F12771CA72C650057E21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9F127E1CA72C650057E21F;
+			remoteInfo = "Wine Inventory";
+		};
+		BC9F129F1CA72C650057E21F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9F12771CA72C650057E21F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9F127E1CA72C650057E21F;
+			remoteInfo = "Wine Inventory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4B11CB1CAC7C1B001FD2DB /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		BC9F127F1CA72C650057E21F /* Wine Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wine Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9F12821CA72C650057E21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC9F12871CA72C650057E21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9F12891CA72C650057E21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC9F128C1CA72C650057E21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC9F128E1CA72C650057E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9F12931CA72C650057E21F /* Wine InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9F12971CA72C650057E21F /* Wine_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine_InventoryTests.swift; sourceTree = "<group>"; };
+		BC9F12991CA72C650057E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9F129E1CA72C650057E21F /* Wine InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9F12A21CA72C650057E21F /* Wine_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wine_InventoryUITests.swift; sourceTree = "<group>"; };
+		BC9F12A41CA72C650057E21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9F12B01CA72FAE0057E21F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../RootViewController.swift; sourceTree = "<group>"; };
+		BCB94BB11CCBEDF90021689F /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
+		BCB94BB31CCBEE6C0021689F /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BCEBAB571CE13ADB0004D851 /* WineList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9F127C1CA72C650057E21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F12901CA72C650057E21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F129B1CA72C650057E21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9F12761CA72C650057E21F = {
+			isa = PBXGroup;
+			children = (
+				BC9F12811CA72C650057E21F /* Wine Inventory */,
+				BC9F12961CA72C650057E21F /* Wine InventoryTests */,
+				BC9F12A11CA72C650057E21F /* Wine InventoryUITests */,
+				BC9F12801CA72C650057E21F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9F12801CA72C650057E21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F127F1CA72C650057E21F /* Wine Inventory.app */,
+				BC9F12931CA72C650057E21F /* Wine InventoryTests.xctest */,
+				BC9F129E1CA72C650057E21F /* Wine InventoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9F12811CA72C650057E21F /* Wine Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F128E1CA72C650057E21F /* Info.plist */,
+				BC9F12821CA72C650057E21F /* AppDelegate.swift */,
+				BC4B11CB1CAC7C1B001FD2DB /* CategoryViewController.swift */,
+				BCB94BB31CCBEE6C0021689F /* InfoViewController.swift */,
+				BC9F12B01CA72FAE0057E21F /* RootViewController.swift */,
+				BCB94BB11CCBEDF90021689F /* WineViewController.swift */,
+				BC9F12891CA72C650057E21F /* Assets.xcassets */,
+				BC9F128B1CA72C650057E21F /* LaunchScreen.storyboard */,
+				BCEBAB571CE13ADB0004D851 /* WineList.swift */,
+				BC9F12861CA72C650057E21F /* Main.storyboard */,
+			);
+			path = "Wine Inventory";
+			sourceTree = "<group>";
+		};
+		BC9F12961CA72C650057E21F /* Wine InventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F12971CA72C650057E21F /* Wine_InventoryTests.swift */,
+				BC9F12991CA72C650057E21F /* Info.plist */,
+			);
+			path = "Wine InventoryTests";
+			sourceTree = "<group>";
+		};
+		BC9F12A11CA72C650057E21F /* Wine InventoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F12A21CA72C650057E21F /* Wine_InventoryUITests.swift */,
+				BC9F12A41CA72C650057E21F /* Info.plist */,
+			);
+			path = "Wine InventoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9F127E1CA72C650057E21F /* Wine Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9F12A71CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine Inventory" */;
+			buildPhases = (
+				BC9F127B1CA72C650057E21F /* Sources */,
+				BC9F127C1CA72C650057E21F /* Frameworks */,
+				BC9F127D1CA72C650057E21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wine Inventory";
+			productName = "Wine Inventory";
+			productReference = BC9F127F1CA72C650057E21F /* Wine Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9F12921CA72C650057E21F /* Wine InventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9F12AA1CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine InventoryTests" */;
+			buildPhases = (
+				BC9F128F1CA72C650057E21F /* Sources */,
+				BC9F12901CA72C650057E21F /* Frameworks */,
+				BC9F12911CA72C650057E21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9F12951CA72C650057E21F /* PBXTargetDependency */,
+			);
+			name = "Wine InventoryTests";
+			productName = "Wine InventoryTests";
+			productReference = BC9F12931CA72C650057E21F /* Wine InventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC9F129D1CA72C650057E21F /* Wine InventoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9F12AD1CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine InventoryUITests" */;
+			buildPhases = (
+				BC9F129A1CA72C650057E21F /* Sources */,
+				BC9F129B1CA72C650057E21F /* Frameworks */,
+				BC9F129C1CA72C650057E21F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9F12A01CA72C650057E21F /* PBXTargetDependency */,
+			);
+			name = "Wine InventoryUITests";
+			productName = "Wine InventoryUITests";
+			productReference = BC9F129E1CA72C650057E21F /* Wine InventoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9F12771CA72C650057E21F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Steve D'Amico";
+				TargetAttributes = {
+					BC9F127E1CA72C650057E21F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC9F12921CA72C650057E21F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC9F127E1CA72C650057E21F;
+					};
+					BC9F129D1CA72C650057E21F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC9F127E1CA72C650057E21F;
+					};
+				};
+			};
+			buildConfigurationList = BC9F127A1CA72C650057E21F /* Build configuration list for PBXProject "Wine Inventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9F12761CA72C650057E21F;
+			productRefGroup = BC9F12801CA72C650057E21F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9F127E1CA72C650057E21F /* Wine Inventory */,
+				BC9F12921CA72C650057E21F /* Wine InventoryTests */,
+				BC9F129D1CA72C650057E21F /* Wine InventoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9F127D1CA72C650057E21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9F128D1CA72C650057E21F /* LaunchScreen.storyboard in Resources */,
+				BC9F128A1CA72C650057E21F /* Assets.xcassets in Resources */,
+				BC9F12881CA72C650057E21F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F12911CA72C650057E21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F129C1CA72C650057E21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9F127B1CA72C650057E21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9F12B11CA72FAE0057E21F /* RootViewController.swift in Sources */,
+				BCB94BB21CCBEDF90021689F /* WineViewController.swift in Sources */,
+				BC4B11CC1CAC7C1B001FD2DB /* CategoryViewController.swift in Sources */,
+				BCB94BB41CCBEE6C0021689F /* InfoViewController.swift in Sources */,
+				BCEBAB581CE13ADB0004D851 /* WineList.swift in Sources */,
+				BC9F12831CA72C650057E21F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F128F1CA72C650057E21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9F12981CA72C650057E21F /* Wine_InventoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9F129A1CA72C650057E21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9F12A31CA72C650057E21F /* Wine_InventoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9F12951CA72C650057E21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9F127E1CA72C650057E21F /* Wine Inventory */;
+			targetProxy = BC9F12941CA72C650057E21F /* PBXContainerItemProxy */;
+		};
+		BC9F12A01CA72C650057E21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9F127E1CA72C650057E21F /* Wine Inventory */;
+			targetProxy = BC9F129F1CA72C650057E21F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9F12861CA72C650057E21F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9F12871CA72C650057E21F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9F128B1CA72C650057E21F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9F128C1CA72C650057E21F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9F12A51CA72C650057E21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9F12A61CA72C650057E21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9F12A81CA72C650057E21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wine Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9F12A91CA72C650057E21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wine Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC9F12AB1CA72C650057E21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wine InventoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wine Inventory.app/Wine Inventory";
+			};
+			name = Debug;
+		};
+		BC9F12AC1CA72C650057E21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wine InventoryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wine Inventory.app/Wine Inventory";
+			};
+			name = Release;
+		};
+		BC9F12AE1CA72C650057E21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wine InventoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wine Inventory";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC9F12AF1CA72C650057E21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wine InventoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CTMI.Wine-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wine Inventory";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9F127A1CA72C650057E21F /* Build configuration list for PBXProject "Wine Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9F12A51CA72C650057E21F /* Debug */,
+				BC9F12A61CA72C650057E21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9F12A71CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9F12A81CA72C650057E21F /* Debug */,
+				BC9F12A91CA72C650057E21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9F12AA1CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine InventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9F12AB1CA72C650057E21F /* Debug */,
+				BC9F12AC1CA72C650057E21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9F12AD1CA72C650057E21F /* Build configuration list for PBXNativeTarget "Wine InventoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9F12AE1CA72C650057E21F /* Debug */,
+				BC9F12AF1CA72C650057E21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9F12771CA72C650057E21F /* Project object */;
+}
